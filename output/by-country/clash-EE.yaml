@@ -6,28 +6,6 @@ log-level: info
 proxies:
 - name: 🇪🇪 EE 01 - xiaohe
   type: vless
-  server: estproxy3.lockdwn.com
-  port: 8443
-  uuid: 9d9e3421-5652-4804-85ba-238355b948ab
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: estproxy3.lockdwn.com
-- name: 🇪🇪 EE 02 - xiaohe
-  type: vless
-  server: 94.183.170.248
-  port: 443
-  uuid: 9d9e3421-5652-4804-85ba-238355b948ab
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 94.183.170.248
-- name: 🇪🇪 EE 03 - xiaohe
-  type: vless
   server: 94.183.170.135
   port: 8443
   uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
@@ -35,6 +13,28 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 02 - xiaohe
+  type: vless
+  server: 94.183.170.135
+  port: 443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 94.183.170.135
+- name: 🇪🇪 EE 03 - xiaohe
+  type: vless
+  server: 94.183.170.248
+  port: 8443
+  uuid: 9d9e3421-5652-4804-85ba-238355b948ab
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: estproxy3.lockdwn.com
 - name: 🇪🇪 EE 04 - xiaohe
   type: vless
   server: 94.183.170.135
@@ -50,18 +50,13 @@ proxies:
       Host: 94.183.170.135
 - name: 🇪🇪 EE 05 - xiaohe
   type: vless
-  server: 172.67.67.178
-  port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
+  server: estproxy3.lockdwn.com
+  port: 8443
+  uuid: 9d9e3421-5652-4804-85ba-238355b948ab
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: rAyAn-007.nAsTaRaN.DpDnS.OrG
+  servername: estproxy3.lockdwn.com
 - name: 🇪🇪 EE 06 - xiaohe
   type: vless
   server: 94.183.170.248
@@ -74,15 +69,6 @@ proxies:
 - name: 🇪🇪 EE 07 - xiaohe
   type: vless
   server: 94.183.170.248
-  port: 8443
-  uuid: 9d9e3421-5652-4804-85ba-238355b948ab
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: estproxy3.lockdwn.com
-- name: 🇪🇪 EE 08 - xiaohe
-  type: vless
-  server: 94.183.170.248
   port: 443
   uuid: 9d9e3421-5652-4804-85ba-238355b948ab
   udp: true
@@ -93,7 +79,7 @@ proxies:
     path: /
     headers:
       Host: 94.183.170.248
-- name: 🇪🇪 EE 09 - xiaohe
+- name: 🇪🇪 EE 08 - xiaohe
   type: vless
   server: 94.183.170.135
   port: 443
@@ -106,6 +92,15 @@ proxies:
     path: /
     headers:
       Host: 94.183.170.135
+- name: 🇪🇪 EE 09 - xiaohe
+  type: vless
+  server: 94.183.170.248
+  port: 8443
+  uuid: 9d9e3421-5652-4804-85ba-238355b948ab
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: estproxy3.lockdwn.com
 - name: 🇪🇪 EE 10 - xiaohe
   type: vless
   server: 94.183.170.135
@@ -126,13 +121,13 @@ proxies:
   servername: estproxy3.lockdwn.com
 - name: 🇪🇪 EE 12 - xiaohe
   type: vless
-  server: 94.183.170.135
+  server: 94.183.170.248
   port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  uuid: 9d9e3421-5652-4804-85ba-238355b948ab
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
+  servername: estproxy3.lockdwn.com
 - name: 🇪🇪 EE 13 - xiaohe
   type: vless
   server: 94.183.170.248
