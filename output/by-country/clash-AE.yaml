@@ -6,29 +6,44 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - xiaohe
   type: vless
-  server: 92.113.124.204
-  port: 18443
-  uuid: 89c1a02f-cef2-4d73-af87-21f894aa3cd5
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
+  type: vless
+  server: 185.112.249.201
+  port: 8443
+  uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+  servername: web-socket.tgdaosheng.ggff.net
   network: ws
   ws-opts:
-    path: /@Marisa_kristifp=chrome
+    path: /proxyip=bpb.yousef.isegaro.comfp=chrome
     headers:
-      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+      Host: web-socket.tgdaosheng.ggff.net
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇦🇪 阿联酋 (UAE) 01 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇦🇪 阿联酋 (UAE) 01 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 02 - xiaohe
 rules:
 - MATCH,PROXIES
