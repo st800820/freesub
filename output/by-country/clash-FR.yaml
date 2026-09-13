@@ -6,27 +6,55 @@ log-level: info
 proxies:
 - name: 🇫🇷 法国 (France) 01 - kqidt
   type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: 149.202.58.99
-- name: 🇫🇷 法国 (France) 02 - kqidt
-  type: vless
-  server: 35.181.146.129
-  port: 22224
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  server: ov-france1.09vpn.com
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-france1.09vpn.com
+- name: 🇫🇷 法国 (France) 02 - kqidt
+  type: ss
+  server: 51.83.192.80
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
 - name: 🇫🇷 法国 (France) 03 - kqidt
+  type: ss
+  server: 83.171.225.55
+  port: 1443
+  cipher: chacha20-ietf-poly1305
+  password: ZjAxZ
+  udp: true
+- name: 🇫🇷 法国 (France) 04 - kqidt
+  type: vless
+  server: usejh2.neobo-tooth.ru
+  port: 2096
+  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: usejh2.neobo-tooth.ru
+- name: 🇫🇷 法国 (France) 05 - kqidt
+  type: vmess
+  server: 51.103.28.247
+  port: 54555
+  uuid: e57e9bb4-a442-44dd-a4bb-2aac72cfd1f2
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 06 - kqidt
   type: vless
   server: 51.38.82.1
   port: 443
@@ -38,117 +66,7 @@ proxies:
     public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
   servername: play.google.com
   client-fingerprint: firefox
-- name: 🇫🇷 法国 (France) 04 - kqidt
-  type: ss
-  server: 20.111.9.76
-  port: 59380
-  cipher: chacha20-ietf-poly1305
-  password: DdhrBvEX2dHRjaakWHBZUa
-  udp: true
-- name: 🇫🇷 法国 (France) 05 - kqidt
-  type: vless
-  server: 158.180.231.216
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇫🇷 法国 (France) 06 - kqidt
-  type: vless
-  server: usejh2.neobo-tooth.ru
-  port: 2096
-  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: usejh2.neobo-tooth.ru
 - name: 🇫🇷 法国 (France) 07 - kqidt
-  type: ss
-  server: 51.83.192.80
-  port: 8388
-  cipher: aes-256-gcm
-  password: itzvpn@321
-  udp: true
-- name: 🇫🇷 法国 (France) 08 - kqidt
-  type: ss
-  server: 83.171.225.55
-  port: 1443
-  cipher: chacha20-ietf-poly1305
-  password: ZjAxZ
-  udp: true
-- name: 🇫🇷 法国 (France) 09 - kqidt
-  type: vless
-  server: 104.21.50.143
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-5a26a30b00dc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/5a26a30b00dc
-    headers:
-      Host: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-- name: 🇫🇷 法国 (France) 10 - kqidt
-  type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: 149.202.58.99
-- name: 🇫🇷 法国 (France) 11 - kqidt
-  type: vless
-  server: usejh2.neobo-tooth.ru
-  port: 2096
-  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: usejh2.neobo-tooth.ru
-- name: 🇫🇷 法国 (France) 12 - kqidt
-  type: vmess
-  server: 141.95.65.9
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 141.95.65.9
-- name: 🇫🇷 法国 (France) 13 - kqidt
-  type: vmess
-  server: 51.103.28.247
-  port: 54555
-  uuid: e57e9bb4-a442-44dd-a4bb-2aac72cfd1f2
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 14 - kqidt
   type: vmess
   server: 162.19.204.71
   port: 1234
@@ -158,8 +76,8 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ''
-- name: 🇫🇷 法国 (France) 15 - kqidt
+  servername: 162.19.204.71
+- name: 🇫🇷 法国 (France) 08 - kqidt
   type: vless
   server: bab-6.site
   port: 443
@@ -173,7 +91,36 @@ proxies:
     path: /vws/
     headers:
       Host: bab-6.site
-- name: 🇫🇷 法国 (France) 16 - kqidt
+- name: 🇫🇷 法国 (France) 09 - kqidt
+  type: vless
+  server: bab-6.site
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 10 - kqidt
+  type: ss
+  server: 51.83.192.80
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
+- name: 🇫🇷 法国 (France) 11 - kqidt
+  type: vless
+  server: 15.188.183.186
+  port: 22223
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 12 - kqidt
   type: vless
   server: 149.202.58.99
   port: 443
@@ -187,7 +134,21 @@ proxies:
     path: /vws/
     headers:
       Host: 149.202.58.99
-- name: 🇫🇷 法国 (France) 17 - kqidt
+- name: 🇫🇷 法国 (France) 13 - kqidt
+  type: vless
+  server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: 149.202.58.99
+- name: 🇫🇷 法国 (France) 14 - kqidt
   type: vless
   server: 51.38.82.1
   port: 443
@@ -199,29 +160,35 @@ proxies:
     public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
   servername: play.google.com
   client-fingerprint: firefox
-- name: 🇫🇷 法国 (France) 18 - kqidt
-  type: ss
-  server: 51.83.192.80
-  port: 8388
-  cipher: aes-256-gcm
-  password: itzvpn@321
+- name: 🇫🇷 法国 (France) 15 - kqidt
+  type: vmess
+  server: 162.19.204.71
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   udp: true
-- name: 🇫🇷 法国 (France) 19 - kqidt
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇫🇷 法国 (France) 16 - kqidt
   type: vless
-  server: usejh2.neobo-tooth.ru
-  port: 2096
-  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
+  server: 15.188.183.186
+  port: 22222
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: usejh2.neobo-tooth.ru
-- name: 🇫🇷 法国 (France) 20 - kqidt
+- name: 🇫🇷 法国 (France) 17 - kqidt
+  type: ss
+  server: 20.111.9.76
+  port: 59380
+  cipher: chacha20-ietf-poly1305
+  password: DdhrBvEX2dHRjaakWHBZUa
+  udp: true
+- name: 🇫🇷 法国 (France) 18 - kqidt
   type: vless
-  server: ov-france1.09vpn.com
+  server: 152.228.162.19
   port: 80
   uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
   udp: true
@@ -231,7 +198,32 @@ proxies:
   ws-opts:
     path: /vless/
     headers:
-      Host: ov-france1.09vpn.com
+      Host: 152.228.162.19
+- name: 🇫🇷 法国 (France) 19 - kqidt
+  type: vless
+  server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: 149.202.58.99
+- name: 🇫🇷 法国 (France) 20 - kqidt
+  type: vmess
+  server: 141.95.65.9
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 141.95.65.9
 - name: 🇫🇷 法国 (France) 21 - kqidt
   type: vless
   server: usejh2.neobo-tooth.ru
@@ -247,6 +239,18 @@ proxies:
       Host: usejh2.neobo-tooth.ru
 - name: 🇫🇷 法国 (France) 22 - kqidt
   type: vless
+  server: 51.38.82.1
+  port: 443
+  uuid: 9343f183-7a16-4bdd-9c65-b0c21feca40b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
+  servername: play.google.com
+  client-fingerprint: random
+- name: 🇫🇷 法国 (France) 23 - kqidt
+  type: vless
   server: 45.144.28.39
   port: 2096
   uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
@@ -258,18 +262,28 @@ proxies:
     path: /
     headers:
       Host: usejh2.neobo-tooth.ru
-- name: 🇫🇷 法国 (France) 23 - kqidt
-  type: vmess
-  server: 162.19.204.71
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 162.19.204.71
 - name: 🇫🇷 法国 (France) 24 - kqidt
+  type: vless
+  server: 15.188.183.186
+  port: 22224
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 25 - kqidt
+  type: vless
+  server: usejh2.neobo-tooth.ru
+  port: 2096
+  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: usejh2.neobo-tooth.ru
+- name: 🇫🇷 法国 (France) 26 - kqidt
   type: vless
   server: 45.144.28.39
   port: 2096
@@ -282,22 +296,6 @@ proxies:
     path: /
     headers:
       Host: 45.144.28.39
-- name: 🇫🇷 法国 (France) 25 - kqidt
-  type: vless
-  server: 35.181.146.129
-  port: 22223
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 26 - kqidt
-  type: vless
-  server: 35.181.146.129
-  port: 22222
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇫🇷 法国 (France) 27 - kqidt
   type: vless
   server: 45.144.28.39
@@ -313,29 +311,20 @@ proxies:
       Host: usejh2.neobo-tooth.ru
 - name: 🇫🇷 法国 (France) 28 - kqidt
   type: vless
-  server: 35.181.146.129
-  port: 22222
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  server: 45.144.28.39
+  port: 2096
+  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 29 - kqidt
-  type: vless
-  server: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-5a26a30b00dc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
   network: ws
   ws-opts:
-    path: /stream/PANEL_ZEUS/5a26a30b00dc
+    path: /
     headers:
-      Host: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-- name: 🇫🇷 法国 (France) 30 - kqidt
+      Host: 45.144.28.39
+- name: 🇫🇷 法国 (France) 29 - kqidt
   type: vless
-  server: bab-6.site
+  server: 158.180.231.216
   port: 443
   uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
@@ -347,42 +336,7 @@ proxies:
     path: /vws/
     headers:
       Host: bab-6.site
-- name: 🇫🇷 法国 (France) 31 - kqidt
-  type: vless
-  server: 152.228.162.19
-  port: 80
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: 152.228.162.19
-- name: 🇫🇷 法国 (France) 32 - kqidt
-  type: vless
-  server: 172.67.206.254
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-5a26a30b00dc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/5a26a30b00dc
-    headers:
-      Host: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-- name: 🇫🇷 法国 (France) 33 - kqidt
-  type: vless
-  server: 35.181.146.129
-  port: 22222
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 34 - kqidt
+- name: 🇫🇷 法国 (France) 30 - kqidt
   type: vless
   server: 45.144.28.39
   port: 2096
@@ -395,14 +349,15 @@ proxies:
     path: /
     headers:
       Host: 45.144.28.39
-- name: 🇫🇷 法国 (France) 35 - kqidt
-  type: ss
-  server: 83.171.225.55
-  port: 1443
-  cipher: chacha20-ietf-poly1305
-  password: ZjAxZ
+- name: 🇫🇷 法国 (France) 31 - kqidt
+  type: vless
+  server: 15.188.183.186
+  port: 22222
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   udp: true
-- name: 🇫🇷 法国 (France) 36 - kqidt
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 32 - kqidt
   type: vmess
   server: 162.19.204.71
   port: 1234
@@ -413,27 +368,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: ''
-- name: 🇫🇷 法国 (France) 37 - kqidt
-  type: vless
-  server: 188.132.237.20
-  port: 2095
-  uuid: 3b9e513e-30d9-4ca8-8340-8f33fc6710de
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 38 - kqidt
-  type: vless
-  server: 45.144.28.39
-  port: 2096
-  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 45.144.28.39
 proxy-groups:
 - name: PROXIES
   type: select
@@ -471,12 +405,6 @@ proxy-groups:
   - 🇫🇷 法国 (France) 30 - kqidt
   - 🇫🇷 法国 (France) 31 - kqidt
   - 🇫🇷 法国 (France) 32 - kqidt
-  - 🇫🇷 法国 (France) 33 - kqidt
-  - 🇫🇷 法国 (France) 34 - kqidt
-  - 🇫🇷 法国 (France) 35 - kqidt
-  - 🇫🇷 法国 (France) 36 - kqidt
-  - 🇫🇷 法国 (France) 37 - kqidt
-  - 🇫🇷 法国 (France) 38 - kqidt
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -514,11 +442,5 @@ proxy-groups:
   - 🇫🇷 法国 (France) 30 - kqidt
   - 🇫🇷 法国 (France) 31 - kqidt
   - 🇫🇷 法国 (France) 32 - kqidt
-  - 🇫🇷 法国 (France) 33 - kqidt
-  - 🇫🇷 法国 (France) 34 - kqidt
-  - 🇫🇷 法国 (France) 35 - kqidt
-  - 🇫🇷 法国 (France) 36 - kqidt
-  - 🇫🇷 法国 (France) 37 - kqidt
-  - 🇫🇷 法国 (France) 38 - kqidt
 rules:
 - MATCH,PROXIES

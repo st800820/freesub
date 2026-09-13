@@ -5,20 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇿 KZ 01 - kqidt
-  type: vmess
-  server: 38.107.234.57
-  port: 80
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
+  type: ss
+  server: 94.198.220.183
+  port: 64674
+  cipher: chacha20-ietf-poly1305
+  password: s8LbJCgUiGXeCKVc63tHJP
   udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: 3h-kazakhstan1.09vpn.com
 - name: 🇰🇿 KZ 02 - kqidt
   type: vmess
   server: 38.107.234.57
@@ -36,7 +28,7 @@ proxies:
       Host: ''
 - name: 🇰🇿 KZ 03 - kqidt
   type: vmess
-  server: 38.107.234.57
+  server: 3h-kazakhstan1.09vpn.com
   port: 80
   uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   alterId: 0
@@ -63,52 +55,7 @@ proxies:
   ws-opts:
     path: /vmess/
     headers:
-      Host: 38.107.234.57
-- name: 🇰🇿 KZ 05 - kqidt
-  type: vmess
-  server: 38.107.234.57
-  port: 80
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
       Host: google.com
-- name: 🇰🇿 KZ 06 - kqidt
-  type: vmess
-  server: 38.107.234.57
-  port: 80
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: viber.com
-- name: 🇰🇿 KZ 07 - kqidt
-  type: vmess
-  server: 38.107.234.57
-  port: 80
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: 3h-kazakhstan1.09vpn.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -118,9 +65,6 @@ proxy-groups:
   - 🇰🇿 KZ 02 - kqidt
   - 🇰🇿 KZ 03 - kqidt
   - 🇰🇿 KZ 04 - kqidt
-  - 🇰🇿 KZ 05 - kqidt
-  - 🇰🇿 KZ 06 - kqidt
-  - 🇰🇿 KZ 07 - kqidt
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -130,8 +74,5 @@ proxy-groups:
   - 🇰🇿 KZ 02 - kqidt
   - 🇰🇿 KZ 03 - kqidt
   - 🇰🇿 KZ 04 - kqidt
-  - 🇰🇿 KZ 05 - kqidt
-  - 🇰🇿 KZ 06 - kqidt
-  - 🇰🇿 KZ 07 - kqidt
 rules:
 - MATCH,PROXIES

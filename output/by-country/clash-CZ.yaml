@@ -6,8 +6,22 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - kqidt
   type: vless
-  server: 162.159.45.19
-  port: 2086
+  server: 103.119.18.30
+  port: 443
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mianfei-73q.pages.dev
+  network: ws
+  ws-opts:
+    path: /proxyip=154.3.33.43
+    headers:
+      Host: mianfei-73q.pages.dev
+- name: 🇨🇿 CZ 02 - kqidt
+  type: vless
+  server: 172.64.42.85
+  port: 2082
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -17,48 +31,20 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇨🇿 CZ 02 - kqidt
-  type: vless
-  server: 103.119.18.30
-  port: 443
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: mianfei-73q.pages.dev
-  network: ws
-  ws-opts:
-    path: /proxyip=154.3.33.43
-    headers:
-      Host: mianfei-73q.pages.dev
 - name: 🇨🇿 CZ 03 - kqidt
   type: vless
-  server: 103.119.18.30
-  port: 443
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: mianfei-73q.pages.dev
-  network: ws
-  ws-opts:
-    path: /proxyip=154.3.33.43
-    headers:
-      Host: mianfei-73q.pages.dev
-- name: 🇨🇿 CZ 04 - kqidt
-  type: vless
-  server: 162.159.156.214
-  port: 8880
-  uuid: cfb74ef3-f868-43c5-b05a-56509e2c948f
+  server: 162.159.48.32
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
+    path: /?ed=2560security=tls
     headers:
-      Host: flat-limit-5b5e.472-cf5.workers.dev
-- name: 🇨🇿 CZ 05 - kqidt
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇨🇿 CZ 04 - kqidt
   type: vless
   server: 103.119.18.30
   port: 443
@@ -72,6 +58,19 @@ proxies:
     path: /proxyip=154.3.33.43
     headers:
       Host: mianfei-73q.pages.dev
+- name: 🇨🇿 CZ 05 - kqidt
+  type: vless
+  server: 172.64.154.8
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇨🇿 CZ 06 - kqidt
   type: vless
   server: 103.119.18.30
@@ -88,18 +87,18 @@ proxies:
       Host: mianfei-73q.pages.dev
 - name: 🇨🇿 CZ 07 - kqidt
   type: vless
-  server: 188.114.97.6
+  server: 103.119.18.30
   port: 443
-  uuid: b0962bf7-0b03-4353-9be1-131b78ad71d0
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: weathered-truth-581a.383.workers.dev
+  servername: mianfei-73q.pages.dev
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
+    path: /proxyip=154.3.33.43
     headers:
-      Host: weathered-truth-581a.383.workers.dev
+      Host: mianfei-73q.pages.dev
 - name: 🇨🇿 CZ 08 - kqidt
   type: vless
   server: 103.119.18.30
@@ -114,6 +113,19 @@ proxies:
     path: /proxyip=154.3.33.43
     headers:
       Host: mianfei-73q.pages.dev
+- name: 🇨🇿 CZ 09 - kqidt
+  type: vless
+  server: 104.16.8.66
+  port: 8880
+  uuid: 2f5c68d9-182f-4d8b-ab53-9358a04387b7
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: broad-truth-e988.258-217.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -127,6 +139,7 @@ proxy-groups:
   - 🇨🇿 CZ 06 - kqidt
   - 🇨🇿 CZ 07 - kqidt
   - 🇨🇿 CZ 08 - kqidt
+  - 🇨🇿 CZ 09 - kqidt
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -140,5 +153,6 @@ proxy-groups:
   - 🇨🇿 CZ 06 - kqidt
   - 🇨🇿 CZ 07 - kqidt
   - 🇨🇿 CZ 08 - kqidt
+  - 🇨🇿 CZ 09 - kqidt
 rules:
 - MATCH,PROXIES

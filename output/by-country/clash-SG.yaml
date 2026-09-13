@@ -6,273 +6,31 @@ log-level: info
 proxies:
 - name: 🇸🇬 新加坡 (Singapore) 01 - kqidt
   type: vless
-  server: www.gov.ua
-  port: 8880
-  uuid: a62a4c64-2270-4d41-828b-2591906c48ba
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
+    path: /fp
     headers:
-      Host: sweet-disk-a026.253-54b.workers.dev
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬 新加坡 (Singapore) 02 - kqidt
   type: vless
-  server: news.zoom.us
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  server: www.gov.ua
+  port: 8880
+  uuid: 486ebf01-0b45-4c38-9ef6-198aa0f9d2c3
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: u.srilankangrill.online
   network: ws
   ws-opts:
-    path: /
+    path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
-      Host: u.srilankangrill.online
+      Host: quiet-feather-19f3.410-a69.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 03 - kqidt
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 04 - kqidt
-  type: vless
-  server: anydesk.com
-  port: 8880
-  uuid: 984d10dd-4d51-45ac-a781-f0c1357644c2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: lingering-sun-d7b5.49-56e.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 05 - kqidt
-  type: vmess
-  server: 149.88.23.202
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 06 - kqidt
-  type: vless
-  server: 141.193.213.21
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 07 - kqidt
-  type: vless
-  server: 141.193.213.21
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 08 - kqidt
-  type: vless
-  server: 188.114.97.6
-  port: 2096
-  uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shalana.xyz
-  network: ws
-  ws-opts:
-    path: /shalana
-    headers:
-      Host: shalana.xyz
-- name: 🇸🇬 新加坡 (Singapore) 09 - kqidt
-  type: vless
-  server: anydesk.com
-  port: 8880
-  uuid: 243ad93d-9732-4e19-9784-8b1a642cff70
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: fancy-king-6fb5.33-615.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 10 - kqidt
-  type: vmess
-  server: select-sg.ddnskunlun.com
-  port: 9039
-  uuid: 4fa65799-694e-316b-b2d3-30c793777cbf
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 11 - kqidt
-  type: vless
-  server: 104.16.106.213
-  port: 8880
-  uuid: a3cd0fea-482b-4b67-be46-de041690b657
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: solitary-firefly-e2dc.495-398.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 12 - kqidt
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 13 - kqidt
-  type: vless
-  server: 104.17.70.206
-  port: 2096
-  uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shalana.xyz
-  network: ws
-  ws-opts:
-    path: /shalana
-    headers:
-      Host: shalana.xyz
-- name: 🇸🇬 新加坡 (Singapore) 14 - kqidt
-  type: vless
-  server: www.zsu.gov.ua
-  port: 8880
-  uuid: 667a035b-6656-4a4f-a74c-8cd6a679f8d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: winter-mode-7f4e.89-136.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 15 - kqidt
-  type: vmess
-  server: 149.88.23.202
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 16 - kqidt
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 17 - kqidt
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 18 - kqidt
-  type: vless
-  server: 104.16.25.46
-  port: 8880
-  uuid: 220046c3-0081-4c22-a648-83a52bc3a0d5
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: yellow-sky-38b3.154-d73.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 19 - kqidt
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 4c37df21-0a34-41bf-8bc7-78efd823c03b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shiny-salad-e491.479.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: shiny-salad-e491.479.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 20 - kqidt
-  type: vless
-  server: 104.17.21.32
-  port: 8880
-  uuid: 6e5270b6-9f28-4bc6-8a41-9c197f33f4bb
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: autumn-dawn-fa6b.337-272.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 21 - kqidt
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 22 - kqidt
-  type: vless
-  server: 172.64.88.168
-  port: 8880
-  uuid: d702b5e4-412d-4859-a528-3fc0b91f6fc0
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: wild-math-3ef2.439.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 23 - kqidt
   type: vless
   server: 104.17.191.15
   port: 8880
@@ -285,31 +43,7 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
       Host: raspy-truth-565b.394-8bb.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 24 - kqidt
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 25 - kqidt
-  type: vless
-  server: news.zoom.us
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 26 - kqidt
+- name: 🇸🇬 新加坡 (Singapore) 04 - kqidt
   type: vmess
   server: ww11.levikogjgfdd.ir
   port: 18000
@@ -319,93 +53,7 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 27 - kqidt
-  type: vless
-  server: 104.21.23.72
-  port: 8880
-  uuid: a62a4c64-2270-4d41-828b-2591906c48ba
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: sweet-disk-a026.253-54b.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 28 - kqidt
-  type: vless
-  server: 172.65.90.52
-  port: 8880
-  uuid: 667a035b-6656-4a4f-a74c-8cd6a679f8d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: winter-mode-7f4e.89-136.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 29 - kqidt
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 30 - kqidt
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: d1eeb74f-e5ea-45eb-9934-5376bfeb5ba4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fragrant-shape-07a0.269-144.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: fragrant-shape-07a0.269-144.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 31 - kqidt
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬 新加坡 (Singapore) 32 - kqidt
-  type: vless
-  server: 104.17.64.70
-  port: 8880
-  uuid: 220046c3-0081-4c22-a648-83a52bc3a0d5
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: yellow-sky-38b3.154-d73.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 33 - kqidt
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 34 - kqidt
+- name: 🇸🇬 新加坡 (Singapore) 05 - kqidt
   type: vmess
   server: ww11.levikogjgfdd.ir
   port: 18000
@@ -415,31 +63,7 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 35 - kqidt
-  type: vless
-  server: 141.193.213.21
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 36 - kqidt
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 37 - kqidt
+- name: 🇸🇬 新加坡 (Singapore) 06 - kqidt
   type: vless
   server: 172.64.150.28
   port: 2082
@@ -452,94 +76,7 @@ proxies:
     path: /fp
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬 新加坡 (Singapore) 38 - kqidt
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 6e5270b6-9f28-4bc6-8a41-9c197f33f4bb
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: autumn-dawn-fa6b.337-272.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 39 - kqidt
-  type: vless
-  server: 104.18.31.170
-  port: 8880
-  uuid: 2e3431ac-0b98-4471-9822-6b7ae94a9a11
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: polished-hall-7427.463-5d2.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 40 - kqidt
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 41 - kqidt
-  type: vless
-  server: 172.64.144.180
-  port: 8880
-  uuid: e9d9f06f-d5dd-460a-998f-52efc4732636
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: bitter-meadow-1d60.313-0f9.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 42 - kqidt
-  type: vless
-  server: 104.27.82.154
-  port: 8880
-  uuid: 94ed4a58-dcf4-43cb-afc1-f158e14ec42d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: gentle-surf-cc74.345-604.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 43 - kqidt
-  type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬 新加坡 (Singapore) 44 - kqidt
-  type: vless
-  server: 217.217.254.126
-  port: 2053
-  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇸🇬 新加坡 (Singapore) 45 - kqidt
+- name: 🇸🇬 新加坡 (Singapore) 07 - kqidt
   type: vmess
   server: ww11.levikogjgfdd.ir
   port: 18000
@@ -549,134 +86,7 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 46 - kqidt
-  type: vless
-  server: 162.159.140.78
-  port: 8880
-  uuid: f35fb51f-8d34-49ec-80cb-7d04ffc1a69b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: damp-sky-9aaa.224-8b4.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 47 - kqidt
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 48 - kqidt
-  type: vless
-  server: 104.17.58.113
-  port: 8880
-  uuid: f7cc1898-52f8-4e8e-9a90-320fc7fdadb8
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: raspy-truth-565b.394-8bb.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 49 - kqidt
-  type: vless
-  server: 188.114.97.6
-  port: 2096
-  uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shalana.xyz
-  network: ws
-  ws-opts:
-    path: /shalana
-    headers:
-      Host: shalana.xyz
-- name: 🇸🇬 新加坡 (Singapore) 50 - kqidt
-  type: vless
-  server: 104.27.82.154
-  port: 8880
-  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: old-violet-a5ce.29-440.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 51 - kqidt
-  type: ss
-  server: 176.97.64.144
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: TFElG2FVqyqG
-  udp: true
-- name: 🇸🇬 新加坡 (Singapore) 52 - kqidt
-  type: ss
-  server: 139.180.220.175
-  port: 8388
-  cipher: aes-256-gcm
-  password: qpSevKaUXYQKvSjp
-  udp: true
-- name: 🇸🇬 新加坡 (Singapore) 53 - kqidt
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 54 - kqidt
-  type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬 新加坡 (Singapore) 55 - kqidt
-  type: vless
-  server: www.zsu.gov.ua
-  port: 8880
-  uuid: 121c3728-2b6b-4b69-bac6-170b13658d74
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: falling-darkness-95ea.289.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 56 - kqidt
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 7db9bcc1-78f1-455d-944b-3363b867e670
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: long-wildflower-3df6.341-165.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: long-wildflower-3df6.341-165.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 57 - kqidt
+- name: 🇸🇬 新加坡 (Singapore) 08 - kqidt
   type: vmess
   server: ww11.levikogjgfdd.ir
   port: 18000
@@ -686,103 +96,11 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 58 - kqidt
-  type: vless
-  server: 217.217.254.126
-  port: 2053
-  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇸🇬 新加坡 (Singapore) 59 - kqidt
-  type: vless
-  server: 104.16.107.139
-  port: 8880
-  uuid: 486ebf01-0b45-4c38-9ef6-198aa0f9d2c3
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: quiet-feather-19f3.410-a69.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 60 - kqidt
-  type: ss
-  server: 176.97.64.144
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: TFElG2FVqyqG
-  udp: true
-- name: 🇸🇬 新加坡 (Singapore) 61 - kqidt
-  type: vless
-  server: 134.122.154.210
-  port: 443
-  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 62 - kqidt
-  type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬 新加坡 (Singapore) 63 - kqidt
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 7db9bcc1-78f1-455d-944b-3363b867e670
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: long-wildflower-3df6.341-165.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 64 - kqidt
-  type: vless
-  server: 104.21.15.212
-  port: 8880
-  uuid: 90f0ae37-5a8f-4649-98ad-ac5323840f93
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: silent-king-06b6.297-842.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 65 - kqidt
-  type: vless
-  server: 104.26.13.40
-  port: 8880
-  uuid: 9d45d137-9892-4a83-a04a-f30b4da28243
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: broken-wave-8a45.483.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 66 - kqidt
+- name: 🇸🇬 新加坡 (Singapore) 09 - kqidt
   type: vless
   server: www.visa.com.sg
   port: 8880
-  uuid: 35b94b2c-1b46-4209-a04b-32ecf159b632
+  uuid: 96a32aaa-ebd9-4824-aa04-e9678011d9b0
   udp: true
   tls: false
   skip-cert-verify: true
@@ -790,166 +108,8 @@ proxies:
   ws-opts:
     path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
-      Host: fragrant-tooth-2180.97-cbb.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 67 - kqidt
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 6e5270b6-9f28-4bc6-8a41-9c197f33f4bb
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: autumn-dawn-fa6b.337-272.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: autumn-dawn-fa6b.337-272.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 68 - kqidt
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 69 - kqidt
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 70 - kqidt
-  type: vless
-  server: 134.122.154.210
-  port: 443
-  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 71 - kqidt
-  type: vless
-  server: 104.17.21.32
-  port: 8880
-  uuid: 4070e7c9-a412-4ed0-a5fa-fdb455451d2c
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: icy-sky-53f2.9-e8e.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 72 - kqidt
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 73 - kqidt
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 74 - kqidt
-  type: vless
-  server: lucky-field-0220.191-de2.workers.dev
-  port: 8880
-  uuid: 01c2fb74-10b5-452d-b893-67cb528b6a8d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucky-field-0220.191-de2.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 75 - kqidt
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 76 - kqidt
-  type: vless
-  server: news.zoom.us
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 77 - kqidt
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 78 - kqidt
-  type: vless
-  server: 172.67.207.26
-  port: 8880
-  uuid: 90f0ae37-5a8f-4649-98ad-ac5323840f93
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: silent-king-06b6.297-842.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 79 - kqidt
-  type: vless
-  server: www.ipget.net
-  port: 8880
-  uuid: e06b6255-1c90-4db0-bd8c-7704df82b27c
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: silent-cherry-7112.257.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 80 - kqidt
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 81 - kqidt
+      Host: old-tooth-d793.447-02e.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 10 - kqidt
   type: vless
   server: 141.193.213.20
   port: 8443
@@ -963,69 +123,7 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 82 - kqidt
-  type: vless
-  server: www.gov.ua
-  port: 8880
-  uuid: 486ebf01-0b45-4c38-9ef6-198aa0f9d2c3
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: quiet-feather-19f3.410-a69.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 83 - kqidt
-  type: vless
-  server: 104.18.12.229
-  port: 8880
-  uuid: 35b94b2c-1b46-4209-a04b-32ecf159b632
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: fragrant-tooth-2180.97-cbb.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 84 - kqidt
-  type: vless
-  server: support.zoom.us
-  port: 80
-  uuid: 6aa028bc-08a9-41d1-a397-d60ce65df081
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /shalana
-    headers:
-      Host: shalana.xyz
-- name: 🇸🇬 新加坡 (Singapore) 85 - kqidt
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 86 - kqidt
-  type: vless
-  server: 104.16.8.66
-  port: 8880
-  uuid: 725c66a2-2bce-4a24-ba52-b4e2e7047076
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: rapid-base-6c9e.45-d79.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 87 - kqidt
+- name: 🇸🇬 新加坡 (Singapore) 11 - kqidt
   type: vless
   server: 162.159.140.78
   port: 8880
@@ -1038,11 +136,11 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
       Host: hidden-bonus-24d0.232-647.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 88 - kqidt
+- name: 🇸🇬 新加坡 (Singapore) 12 - kqidt
   type: vless
-  server: www.visa.com.sg
+  server: 104.17.58.113
   port: 8880
-  uuid: 96a32aaa-ebd9-4824-aa04-e9678011d9b0
+  uuid: f7cc1898-52f8-4e8e-9a90-320fc7fdadb8
   udp: true
   tls: false
   skip-cert-verify: true
@@ -1050,222 +148,8 @@ proxies:
   ws-opts:
     path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
-      Host: old-tooth-d793.447-02e.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 89 - kqidt
-  type: vless
-  server: log.bpminecraft.com
-  port: 8880
-  uuid: d702b5e4-412d-4859-a528-3fc0b91f6fc0
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: wild-math-3ef2.439.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 90 - kqidt
-  type: vless
-  server: www.ipget.net
-  port: 8880
-  uuid: 90f0ae37-5a8f-4649-98ad-ac5323840f93
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: silent-king-06b6.297-842.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 91 - kqidt
-  type: vless
-  server: support.zoom.us
-  port: 80
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 92 - kqidt
-  type: vless
-  server: 104.18.30.170
-  port: 8880
-  uuid: 243ad93d-9732-4e19-9784-8b1a642cff70
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: fancy-king-6fb5.33-615.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 93 - kqidt
-  type: vless
-  server: 104.17.21.32
-  port: 8880
-  uuid: d1eeb74f-e5ea-45eb-9934-5376bfeb5ba4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: fragrant-shape-07a0.269-144.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 94 - kqidt
-  type: vless
-  server: news.zoom.us
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 95 - kqidt
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: d702b5e4-412d-4859-a528-3fc0b91f6fc0
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wild-math-3ef2.439.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: wild-math-3ef2.439.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 96 - kqidt
-  type: vless
-  server: deepl.com
-  port: 8880
-  uuid: 6d73dc1e-1627-4b16-b471-53e63aa16c78
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: sweet-truth-ccdb.134-7e9.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 97 - kqidt
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 98 - kqidt
-  type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬 新加坡 (Singapore) 99 - kqidt
-  type: vless
-  server: 172.66.200.130
-  port: 8880
-  uuid: 4c37df21-0a34-41bf-8bc7-78efd823c03b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: shiny-salad-e491.479.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 100 - kqidt
-  type: vless
-  server: news.zoom.us
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 101 - kqidt
-  type: vless
-  server: 134.122.154.210
-  port: 443
-  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 102 - kqidt
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 103 - kqidt
-  type: vless
-  server: 172.65.90.52
-  port: 8880
-  uuid: 5c7a171d-de8a-446d-accc-4d3cf7d473f4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: purple-forest-b185.467.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 104 - kqidt
-  type: vless
-  server: 104.17.70.206
-  port: 2096
-  uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shalana.xyz
-  network: ws
-  ws-opts:
-    path: /shalana
-    headers:
-      Host: shalana.xyz
-- name: 🇸🇬 新加坡 (Singapore) 105 - kqidt
-  type: vless
-  server: 104.17.170.132
-  port: 8880
-  uuid: 8e8e2034-33eb-4ccc-938f-ba86d877c449
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: icy-hall-8013.386-58c.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 106 - kqidt
+      Host: raspy-truth-565b.394-8bb.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 13 - kqidt
   type: vless
   server: 104.17.178.154
   port: 8880
@@ -1278,7 +162,61 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
       Host: solitary-firefly-e2dc.495-398.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 107 - kqidt
+- name: 🇸🇬 新加坡 (Singapore) 14 - kqidt
+  type: vless
+  server: 188.114.97.6
+  port: 2096
+  uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shalana.xyz
+  network: ws
+  ws-opts:
+    path: /shalana
+    headers:
+      Host: shalana.xyz
+- name: 🇸🇬 新加坡 (Singapore) 15 - kqidt
+  type: vless
+  server: 104.17.170.132
+  port: 8880
+  uuid: 8e8e2034-33eb-4ccc-938f-ba86d877c449
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: icy-hall-8013.386-58c.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 16 - kqidt
+  type: vless
+  server: 172.64.88.168
+  port: 8880
+  uuid: d702b5e4-412d-4859-a528-3fc0b91f6fc0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: wild-math-3ef2.439.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 17 - kqidt
+  type: vless
+  server: news.zoom.us
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 18 - kqidt
   type: vmess
   server: 149.88.23.207
   port: 18000
@@ -1288,15 +226,7 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 108 - kqidt
-  type: vless
-  server: 134.122.154.210
-  port: 443
-  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 109 - kqidt
+- name: 🇸🇬 新加坡 (Singapore) 19 - kqidt
   type: vless
   server: 188.114.97.6
   port: 443
@@ -1310,7 +240,109 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
       Host: falling-darkness-95ea.289.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 110 - kqidt
+- name: 🇸🇬 新加坡 (Singapore) 20 - kqidt
+  type: ss
+  server: 176.97.64.144
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: TFElG2FVqyqG
+  udp: true
+- name: 🇸🇬 新加坡 (Singapore) 21 - kqidt
+  type: vless
+  server: 104.21.15.212
+  port: 8880
+  uuid: 90f0ae37-5a8f-4649-98ad-ac5323840f93
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: silent-king-06b6.297-842.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 22 - kqidt
+  type: vless
+  server: 104.21.12.116
+  port: 8880
+  uuid: d702b5e4-412d-4859-a528-3fc0b91f6fc0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: wild-math-3ef2.439.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 23 - kqidt
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 24 - kqidt
+  type: vless
+  server: 104.16.107.139
+  port: 8880
+  uuid: 56eba3f8-94f8-48f2-920b-d79bb042d0bb
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: lingering-glade-21ce.61-b6f.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 25 - kqidt
+  type: vless
+  server: 134.122.154.210
+  port: 443
+  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 26 - kqidt
+  type: ss
+  server: 167.150.100.115
+  port: 27755
+  cipher: 2022-blake3-aes-256-gcm
+  password: fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0=
+  udp: true
+- name: 🇸🇬 新加坡 (Singapore) 27 - kqidt
+  type: ss
+  server: 176.97.64.144
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: TFElG2FVqyqG
+  udp: true
+- name: 🇸🇬 新加坡 (Singapore) 28 - kqidt
+  type: vless
+  server: news.zoom.us
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 29 - kqidt
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 30 - kqidt
   type: vless
   server: 141.193.213.20
   port: 8443
@@ -1324,7 +356,55 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 111 - kqidt
+- name: 🇸🇬 新加坡 (Singapore) 31 - kqidt
+  type: vless
+  server: 217.217.254.126
+  port: 2053
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇸🇬 新加坡 (Singapore) 32 - kqidt
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 33 - kqidt
+  type: vless
+  server: 217.217.254.126
+  port: 2053
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇸🇬 新加坡 (Singapore) 34 - kqidt
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: d702b5e4-412d-4859-a528-3fc0b91f6fc0
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wild-math-3ef2.439.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: wild-math-3ef2.439.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 35 - kqidt
   type: vmess
   server: ww11.levikogjgfdd.ir
   port: 18000
@@ -1334,7 +414,208 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 112 - kqidt
+- name: 🇸🇬 新加坡 (Singapore) 36 - kqidt
+  type: vless
+  server: 162.159.140.78
+  port: 8880
+  uuid: f35fb51f-8d34-49ec-80cb-7d04ffc1a69b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: damp-sky-9aaa.224-8b4.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 37 - kqidt
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 38 - kqidt
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 39 - kqidt
+  type: vless
+  server: 104.17.21.32
+  port: 8880
+  uuid: d1eeb74f-e5ea-45eb-9934-5376bfeb5ba4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: fragrant-shape-07a0.269-144.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 40 - kqidt
+  type: vless
+  server: news.zoom.us
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 41 - kqidt
+  type: vless
+  server: news.zoom.us
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 42 - kqidt
+  type: vless
+  server: news.zoom.us
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 43 - kqidt
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 44 - kqidt
+  type: vless
+  server: 134.122.154.210
+  port: 443
+  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 45 - kqidt
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 46 - kqidt
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 47 - kqidt
+  type: vless
+  server: log.bpminecraft.com
+  port: 8880
+  uuid: d702b5e4-412d-4859-a528-3fc0b91f6fc0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: wild-math-3ef2.439.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 48 - kqidt
+  type: vless
+  server: 104.26.13.40
+  port: 8880
+  uuid: 9d45d137-9892-4a83-a04a-f30b4da28243
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: broken-wave-8a45.483.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 49 - kqidt
+  type: vless
+  server: support.zoom.us
+  port: 80
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 50 - kqidt
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 51 - kqidt
+  type: vless
+  server: 104.21.70.21
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇸🇬 新加坡 (Singapore) 52 - kqidt
+  type: vless
+  server: www.zsu.gov.ua
+  port: 8880
+  uuid: 121c3728-2b6b-4b69-bac6-170b13658d74
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: falling-darkness-95ea.289.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 53 - kqidt
   type: vless
   server: 172.64.150.28
   port: 2082
@@ -1347,7 +628,155 @@ proxies:
     path: /fp
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬 新加坡 (Singapore) 113 - kqidt
+- name: 🇸🇬 新加坡 (Singapore) 54 - kqidt
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 55 - kqidt
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 56 - kqidt
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 57 - kqidt
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 58 - kqidt
+  type: vless
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇸🇬 新加坡 (Singapore) 59 - kqidt
+  type: vless
+  server: 104.27.82.154
+  port: 8880
+  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: old-violet-a5ce.29-440.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 60 - kqidt
+  type: vless
+  server: 188.114.97.6
+  port: 2096
+  uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shalana.xyz
+  network: ws
+  ws-opts:
+    path: /shalana
+    headers:
+      Host: shalana.xyz
+- name: 🇸🇬 新加坡 (Singapore) 61 - kqidt
+  type: vless
+  server: 134.122.154.210
+  port: 443
+  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 62 - kqidt
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 63 - kqidt
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 64 - kqidt
+  type: vless
+  server: 104.17.70.206
+  port: 2096
+  uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shalana.xyz
+  network: ws
+  ws-opts:
+    path: /shalana
+    headers:
+      Host: shalana.xyz
+- name: 🇸🇬 新加坡 (Singapore) 65 - kqidt
+  type: vless
+  server: support.zoom.us
+  port: 80
+  uuid: 6aa028bc-08a9-41d1-a397-d60ce65df081
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shalana
+    headers:
+      Host: shalana.xyz
+- name: 🇸🇬 新加坡 (Singapore) 66 - kqidt
+  type: vless
+  server: 104.16.107.139
+  port: 8880
+  uuid: 486ebf01-0b45-4c38-9ef6-198aa0f9d2c3
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: quiet-feather-19f3.410-a69.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 67 - kqidt
   type: vless
   server: 141.193.213.21
   port: 8443
@@ -1361,7 +790,121 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 114 - kqidt
+- name: 🇸🇬 新加坡 (Singapore) 68 - kqidt
+  type: vless
+  server: 141.193.213.21
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 69 - kqidt
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 70 - kqidt
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 71 - kqidt
+  type: vless
+  server: 162.159.140.78
+  port: 8880
+  uuid: f35fb51f-8d34-49ec-80cb-7d04ffc1a69b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: damp-sky-9aaa.224-8b4.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 72 - kqidt
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: d1eeb74f-e5ea-45eb-9934-5376bfeb5ba4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fragrant-shape-07a0.269-144.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: fragrant-shape-07a0.269-144.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 73 - kqidt
+  type: vless
+  server: lucky-field-0220.191-de2.workers.dev
+  port: 8880
+  uuid: 01c2fb74-10b5-452d-b893-67cb528b6a8d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucky-field-0220.191-de2.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 74 - kqidt
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 75 - kqidt
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 76 - kqidt
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 77 - kqidt
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 78 - kqidt
   type: vless
   server: 188.114.97.6
   port: 443
@@ -1375,17 +918,7 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
       Host: old-tooth-d793.447-02e.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 115 - kqidt
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 116 - kqidt
+- name: 🇸🇬 新加坡 (Singapore) 79 - kqidt
   type: vless
   server: 172.64.150.28
   port: 2082
@@ -1398,37 +931,21 @@ proxies:
     path: /fp
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬 新加坡 (Singapore) 117 - kqidt
-  type: vless
-  server: 104.21.70.21
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+- name: 🇸🇬 新加坡 (Singapore) 80 - kqidt
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬 新加坡 (Singapore) 118 - kqidt
+- name: 🇸🇬 新加坡 (Singapore) 81 - kqidt
   type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 4c37df21-0a34-41bf-8bc7-78efd823c03b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: shiny-salad-e491.479.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 119 - kqidt
-  type: vless
-  server: 162.159.140.78
+  server: www.ipget.net
   port: 8880
-  uuid: 6d73dc1e-1627-4b16-b471-53e63aa16c78
+  uuid: 90f0ae37-5a8f-4649-98ad-ac5323840f93
   udp: true
   tls: false
   skip-cert-verify: true
@@ -1436,34 +953,8 @@ proxies:
   ws-opts:
     path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
-      Host: sweet-truth-ccdb.134-7e9.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 120 - kqidt
-  type: vless
-  server: 104.16.107.139
-  port: 8880
-  uuid: 56eba3f8-94f8-48f2-920b-d79bb042d0bb
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: lingering-glade-21ce.61-b6f.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 121 - kqidt
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 05e7abc2-46e1-4a23-9cdc-173ce17eb0d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip
-    headers:
-      Host: round-term-947c.41-332.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 122 - kqidt
+      Host: silent-king-06b6.297-842.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 82 - kqidt
   type: vmess
   server: ww11.levikogjgfdd.ir
   port: 18000
@@ -1473,98 +964,15 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 123 - kqidt
+- name: 🇸🇬 新加坡 (Singapore) 83 - kqidt
   type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 121c3728-2b6b-4b69-bac6-170b13658d74
+  server: 134.122.154.210
+  port: 443
+  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: falling-darkness-95ea.289.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 124 - kqidt
-  type: vless
-  server: lucky-field-0220.191-de2.workers.dev
-  port: 8880
-  uuid: 01c2fb74-10b5-452d-b893-67cb528b6a8d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucky-field-0220.191-de2.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 125 - kqidt
-  type: vless
-  server: 104.18.30.170
-  port: 8880
-  uuid: 2e3431ac-0b98-4471-9822-6b7ae94a9a11
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: polished-hall-7427.463-5d2.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 126 - kqidt
-  type: vless
-  server: 104.16.106.213
-  port: 8880
-  uuid: a62a4c64-2270-4d41-828b-2591906c48ba
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: sweet-disk-a026.253-54b.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 127 - kqidt
-  type: vless
-  server: 162.159.140.78
-  port: 8880
-  uuid: f35fb51f-8d34-49ec-80cb-7d04ffc1a69b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: damp-sky-9aaa.224-8b4.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 128 - kqidt
-  type: vless
-  server: 104.17.181.19
-  port: 8880
-  uuid: 984d10dd-4d51-45ac-a781-f0c1357644c2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: lingering-sun-d7b5.49-56e.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 129 - kqidt
-  type: vless
-  server: 172.66.200.130
-  port: 8880
-  uuid: 20d0a81f-da70-44dc-b9bf-5a5ddab644db
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: crimson-lab-6cab.402-311.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 130 - kqidt
+- name: 🇸🇬 新加坡 (Singapore) 84 - kqidt
   type: vless
   server: 172.64.88.251
   port: 8880
@@ -1577,11 +985,25 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
       Host: wild-math-3ef2.439.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 131 - kqidt
+- name: 🇸🇬 新加坡 (Singapore) 85 - kqidt
   type: vless
-  server: anydesk.com
+  server: 141.193.213.21
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 86 - kqidt
+  type: vless
+  server: 104.16.106.213
   port: 8880
-  uuid: 2e3431ac-0b98-4471-9822-6b7ae94a9a11
+  uuid: a3cd0fea-482b-4b67-be46-de041690b657
   udp: true
   tls: false
   skip-cert-verify: true
@@ -1589,7 +1011,117 @@ proxies:
   ws-opts:
     path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
-      Host: polished-hall-7427.463-5d2.workers.dev
+      Host: solitary-firefly-e2dc.495-398.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 87 - kqidt
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 88 - kqidt
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: 121c3728-2b6b-4b69-bac6-170b13658d74
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: falling-darkness-95ea.289.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 89 - kqidt
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 90 - kqidt
+  type: vless
+  server: 104.17.70.206
+  port: 2096
+  uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shalana.xyz
+  network: ws
+  ws-opts:
+    path: /shalana
+    headers:
+      Host: shalana.xyz
+- name: 🇸🇬 新加坡 (Singapore) 91 - kqidt
+  type: vless
+  server: 141.193.213.21
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 92 - kqidt
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 93 - kqidt
+  type: vless
+  server: 172.67.207.26
+  port: 8880
+  uuid: 90f0ae37-5a8f-4649-98ad-ac5323840f93
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: silent-king-06b6.297-842.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 94 - kqidt
+  type: vless
+  server: 104.16.8.66
+  port: 8880
+  uuid: 725c66a2-2bce-4a24-ba52-b4e2e7047076
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: rapid-base-6c9e.45-d79.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 95 - kqidt
+  type: vless
+  server: www.baipiao.eu.org
+  port: 8880
+  uuid: 121c3728-2b6b-4b69-bac6-170b13658d74
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: falling-darkness-95ea.289.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -1690,42 +1222,6 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 93 - kqidt
   - 🇸🇬 新加坡 (Singapore) 94 - kqidt
   - 🇸🇬 新加坡 (Singapore) 95 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 96 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 97 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 98 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 99 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 100 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 101 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 102 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 103 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 104 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 105 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 106 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 107 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 108 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 109 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 110 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 111 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 112 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 113 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 114 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 115 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 116 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 117 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 118 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 119 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 120 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 121 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 122 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 123 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 124 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 125 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 126 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 127 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 128 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 129 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 130 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 131 - kqidt
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -1826,41 +1322,5 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 93 - kqidt
   - 🇸🇬 新加坡 (Singapore) 94 - kqidt
   - 🇸🇬 新加坡 (Singapore) 95 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 96 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 97 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 98 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 99 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 100 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 101 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 102 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 103 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 104 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 105 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 106 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 107 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 108 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 109 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 110 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 111 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 112 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 113 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 114 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 115 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 116 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 117 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 118 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 119 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 120 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 121 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 122 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 123 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 124 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 125 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 126 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 127 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 128 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 129 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 130 - kqidt
-  - 🇸🇬 新加坡 (Singapore) 131 - kqidt
 rules:
 - MATCH,PROXIES

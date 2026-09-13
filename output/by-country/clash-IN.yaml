@@ -6,19 +6,20 @@ log-level: info
 proxies:
 - name: 🇮🇳 印度 (India) 01 - kqidt
   type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  server: 20.235.220.189
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
   network: ws
   ws-opts:
-    path: /
+    path: /ws-vmess
     headers:
-      Host: ''
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
 - name: 🇮🇳 印度 (India) 02 - kqidt
   type: vmess
   server: 152.67.8.205
@@ -61,6 +62,51 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: 🇮🇳 印度 (India) 05 - kqidt
+  type: vmess
+  server: 152.67.8.205
+  port: 80
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ''
+- name: 🇮🇳 印度 (India) 06 - kqidt
+  type: vmess
+  server: 152.67.8.205
+  port: 80
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: 🇮🇳 印度 (India) 07 - kqidt
+  type: vmess
+  server: 152.67.8.205
+  port: 80
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
     path: /
     headers:
       Host: ''
@@ -73,6 +119,9 @@ proxy-groups:
   - 🇮🇳 印度 (India) 02 - kqidt
   - 🇮🇳 印度 (India) 03 - kqidt
   - 🇮🇳 印度 (India) 04 - kqidt
+  - 🇮🇳 印度 (India) 05 - kqidt
+  - 🇮🇳 印度 (India) 06 - kqidt
+  - 🇮🇳 印度 (India) 07 - kqidt
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -82,5 +131,8 @@ proxy-groups:
   - 🇮🇳 印度 (India) 02 - kqidt
   - 🇮🇳 印度 (India) 03 - kqidt
   - 🇮🇳 印度 (India) 04 - kqidt
+  - 🇮🇳 印度 (India) 05 - kqidt
+  - 🇮🇳 印度 (India) 06 - kqidt
+  - 🇮🇳 印度 (India) 07 - kqidt
 rules:
 - MATCH,PROXIES

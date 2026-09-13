@@ -6,305 +6,15 @@ log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 - kqidt
   type: vmess
-  server: 146.56.112.110
-  port: 8888
-  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+  server: 140.238.2.250
+  port: 443
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 02 - kqidt
-  type: ss
-  server: 141.164.45.187
-  port: 9090
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 03 - kqidt
-  type: vless
-  server: 172.64.88.251
-  port: 8880
-  uuid: 87a5d3eb-afd4-4193-9787-c54ef7c26c8c
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: patient-cake-39c7.44-e7a.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 04 - kqidt
-  type: ss
-  server: 141.164.45.187
-  port: 8888
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 05 - kqidt
-  type: vless
-  server: 104.18.11.118
-  port: 8880
-  uuid: 17b2ed22-5fd0-47ad-b5f0-658379379ced
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: black-wildflower-dd92.72-1e8.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 06 - kqidt
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 8c9be850-32a0-4cc1-809b-4a5161413a90
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: sparkling-frog-59e1.256-d4e.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 07 - kqidt
-  type: ss
-  server: 141.164.45.187
-  port: 9101
-  cipher: aes-256-gcm
-  password: e4FCWrgpkji3QY
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 08 - kqidt
-  type: vless
-  server: 104.17.170.132
-  port: 8880
-  uuid: 2ff7eec6-da48-46ab-b770-5c83400a528c
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: icy-glade-ad0f.412.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 09 - kqidt
-  type: vless
-  server: 119.28.161.143
-  port: 443
-  uuid: 1ebb0858-218a-4dee-8746-36a67bc64462
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: pR7MPTAA4cZsW9AO-twMzuogiWGMKPiheTg70fcWWWs
-  servername: apple.com
-  client-fingerprint: chrome
-- name: 🇰🇷 韩国 (South Korea) 10 - kqidt
-  type: vless
-  server: 162.159.140.78
-  port: 8880
-  uuid: 7111212b-6bc3-459a-85b4-3b13038a19f8
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: shrill-fog-67af.235-e6a.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 11 - kqidt
-  type: vless
-  server: 172.67.179.98
-  port: 8880
-  uuid: 8c9be850-32a0-4cc1-809b-4a5161413a90
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: sparkling-frog-59e1.256-d4e.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 12 - kqidt
-  type: vless
-  server: 172.64.80.1
-  port: 8880
-  uuid: 5bbf0601-8431-45f6-a4e9-a1e8b44c0055
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: misty-mouse-141d.177-f18.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 13 - kqidt
-  type: ss
-  server: 141.164.45.187
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 14 - kqidt
-  type: ss
-  server: 141.164.45.187
-  port: 6679
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 15 - kqidt
-  type: vless
-  server: 104.18.11.118
-  port: 8880
-  uuid: 17b2ed22-5fd0-47ad-b5f0-658379379ced
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: black-wildflower-dd92.72-1e8.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 16 - kqidt
-  type: vmess
-  server: 140.238.2.250
-  port: 443
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 17 - kqidt
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 92a4cb10-228f-4239-8c63-c566b20a9167
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: square-waterfall-c1de.199-82d.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 18 - kqidt
-  type: vmess
-  server: 140.238.2.250
-  port: 443
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 19 - kqidt
-  type: ss
-  server: 141.164.45.187
-  port: 7002
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 20 - kqidt
-  type: vless
-  server: log.bpminecraft.com
-  port: 8880
-  uuid: 5bbf0601-8431-45f6-a4e9-a1e8b44c0055
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: misty-mouse-141d.177-f18.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 21 - kqidt
-  type: vless
-  server: 172.67.187.219
-  port: 8880
-  uuid: 8cc8bedd-5103-4d22-a79c-a88f1160055a
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: red-unit-60bc.165-1dd.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 22 - kqidt
-  type: vless
-  server: 104.16.100.66
-  port: 8880
-  uuid: 92a4cb10-228f-4239-8c63-c566b20a9167
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: square-waterfall-c1de.199-82d.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 23 - kqidt
-  type: vless
-  server: www.baipiao.eu.org
-  port: 8880
-  uuid: 8c9be850-32a0-4cc1-809b-4a5161413a90
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: sparkling-frog-59e1.256-d4e.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 24 - kqidt
-  type: ss
-  server: 141.164.45.187
-  port: 9090
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 25 - kqidt
-  type: vless
-  server: www.baipiao.eu.org
-  port: 8880
-  uuid: 83744063-3ddc-4ed9-b6e5-d207ce6ed48e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: still-pine-d15e.368-b2a.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 26 - kqidt
-  type: ss
-  server: 141.164.45.187
-  port: 2376
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 27 - kqidt
-  type: vless
-  server: 104.16.100.66
-  port: 8880
-  uuid: 92a4cb10-228f-4239-8c63-c566b20a9167
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: square-waterfall-c1de.199-82d.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 28 - kqidt
-  type: ss
-  server: 141.164.45.187
-  port: 5001
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 29 - kqidt
   type: vless
   server: www.visa.com.sg
   port: 8880
@@ -317,11 +27,30 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
       Host: silent-cloud-aa63.324-7d8.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 30 - kqidt
+- name: 🇰🇷 韩国 (South Korea) 03 - kqidt
+  type: ss
+  server: glance.asuscomm.com
+  port: 10099
+  cipher: chacha20-ietf-poly1305
+  password: '12242'
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 04 - kqidt
   type: vless
-  server: 104.17.170.132
+  server: 151.245.106.49
+  port: 2053
+  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇰🇷 韩国 (South Korea) 05 - kqidt
+  type: vless
+  server: 104.16.100.66
   port: 8880
-  uuid: 49a9aa25-443b-4fab-9a85-066dd5396c57
+  uuid: 92a4cb10-228f-4239-8c63-c566b20a9167
   udp: true
   tls: false
   skip-cert-verify: true
@@ -329,44 +58,8 @@ proxies:
   ws-opts:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
-      Host: mute-river-6aee.421-bd7.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 31 - kqidt
-  type: vless
-  server: 188.114.97.6
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🇰🇷 韩国 (South Korea) 32 - kqidt
-  type: ss
-  server: 141.164.45.187
-  port: 5498
-  cipher: aes-256-gcm
-  password: lGqs95QkFHo2NV
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 33 - kqidt
-  type: vmess
-  server: 132.145.80.230
-  port: 80
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: kr02.a0a.xyz
-- name: 🇰🇷 韩国 (South Korea) 34 - kqidt
+      Host: square-waterfall-c1de.199-82d.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 06 - kqidt
   type: vmess
   server: 132.145.80.230
   port: 80
@@ -381,37 +74,47 @@ proxies:
     path: /cctv13.m3u8
     headers:
       Host: ''
-- name: 🇰🇷 韩国 (South Korea) 35 - kqidt
+- name: 🇰🇷 韩国 (South Korea) 07 - kqidt
+  type: vmess
+  server: 146.56.112.110
+  port: 8888
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 (South Korea) 08 - kqidt
   type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 2ff7eec6-da48-46ab-b770-5c83400a528c
+  server: 172.64.52.230
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: icy-glade-ad0f.412.workers.dev
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
+    path: /?ed=2560
     headers:
-      Host: icy-glade-ad0f.412.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 36 - kqidt
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇰🇷 韩国 (South Korea) 09 - kqidt
   type: vless
-  server: 172.67.207.26
+  server: www.baipiao.eu.org
   port: 8880
-  uuid: b7300b59-7598-4997-9714-27efd75065d0
+  uuid: 83744063-3ddc-4ed9-b6e5-d207ce6ed48e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /pyip=proxyip.kr.cmliussss.net
+    path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
-      Host: mute-lab-4c55.389.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 37 - kqidt
+      Host: still-pine-d15e.368-b2a.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 10 - kqidt
   type: vless
-  server: 8.6.112.6
-  port: 2087
+  server: 188.114.97.6
+  port: 443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -422,11 +125,11 @@ proxies:
     path: /?ed=2560
     headers:
       Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-- name: 🇰🇷 韩国 (South Korea) 38 - kqidt
+- name: 🇰🇷 韩国 (South Korea) 11 - kqidt
   type: vless
-  server: www.glassdoor.com
+  server: 104.16.100.66
   port: 8880
-  uuid: 5fc8a5e4-d0c5-4ad2-8bfe-db589553c6c1
+  uuid: 92a4cb10-228f-4239-8c63-c566b20a9167
   udp: true
   tls: false
   skip-cert-verify: true
@@ -434,71 +137,19 @@ proxies:
   ws-opts:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
-      Host: red-disk-58df.153-2ce.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 39 - kqidt
-  type: vless
-  server: 172.66.214.247
-  port: 8880
-  uuid: 9b14cdbe-bcfe-4178-a674-3ad88a7c6f6a
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: summer-snow-c151.320-3ef.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 40 - kqidt
-  type: vless
-  server: www.gov.ua
-  port: 8880
-  uuid: e974d4c7-2376-4b65-aa40-0680961ff5e4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: icy-unit-58dc.157-59c.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 41 - kqidt
-  type: vless
-  server: www.ipget.net
-  port: 8880
-  uuid: b7300b59-7598-4997-9714-27efd75065d0
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: mute-lab-4c55.389.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 42 - kqidt
-  type: vless
-  server: 104.18.39.196
-  port: 8880
-  uuid: 5fc8a5e4-d0c5-4ad2-8bfe-db589553c6c1
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip
-    headers:
-      Host: red-disk-58df.153-2ce.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 43 - kqidt
+      Host: square-waterfall-c1de.199-82d.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 12 - kqidt
   type: ss
   server: 141.164.45.187
-  port: 8091
+  port: 6697
   cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
+  password: TEzjfAYq2IjtuoS
   udp: true
-- name: 🇰🇷 韩国 (South Korea) 44 - kqidt
+- name: 🇰🇷 韩国 (South Korea) 13 - kqidt
   type: vless
-  server: 104.17.26.45
+  server: 162.159.140.78
   port: 8880
-  uuid: 2e9012a2-7f8c-4233-b78b-5228a9a4951b
+  uuid: 7111212b-6bc3-459a-85b4-3b13038a19f8
   udp: true
   tls: false
   skip-cert-verify: true
@@ -506,20 +157,36 @@ proxies:
   ws-opts:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
-      Host: icy-breeze-126c.211-eb3.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 45 - kqidt
+      Host: shrill-fog-67af.235-e6a.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 14 - kqidt
   type: vless
-  server: 151.245.106.49
-  port: 2053
-  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  server: 104.17.170.132
+  port: 8880
+  uuid: 49a9aa25-443b-4fab-9a85-066dd5396c57
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇰🇷 韩国 (South Korea) 46 - kqidt
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: mute-river-6aee.421-bd7.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 15 - kqidt
+  type: vmess
+  server: 132.145.80.230
+  port: 80
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: ''
+- name: 🇰🇷 韩国 (South Korea) 16 - kqidt
   type: vless
   server: 104.17.181.19
   port: 8880
@@ -532,11 +199,11 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
       Host: sweet-scene-bffd.312-860.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 47 - kqidt
+- name: 🇰🇷 韩国 (South Korea) 17 - kqidt
   type: vless
-  server: 172.67.187.219
-  port: 8880
-  uuid: 8cc8bedd-5103-4d22-a79c-a88f1160055a
+  server: 188.114.97.6
+  port: 8080
+  uuid: 92a4cb10-228f-4239-8c63-c566b20a9167
   udp: true
   tls: false
   skip-cert-verify: true
@@ -544,12 +211,12 @@ proxies:
   ws-opts:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
-      Host: red-unit-60bc.165-1dd.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 48 - kqidt
+      Host: square-waterfall-c1de.199-82d.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 18 - kqidt
   type: vless
-  server: anydesk.com
+  server: 104.17.26.45
   port: 8880
-  uuid: 2f142ede-d555-4ceb-b005-7df31b484be3
+  uuid: 2e9012a2-7f8c-4233-b78b-5228a9a4951b
   udp: true
   tls: false
   skip-cert-verify: true
@@ -557,7 +224,84 @@ proxies:
   ws-opts:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
-      Host: bitter-pine-001c.450-e0e.workers.dev
+      Host: icy-breeze-126c.211-eb3.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 19 - kqidt
+  type: ss
+  server: 141.164.45.187
+  port: 7002
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 20 - kqidt
+  type: vmess
+  server: 140.238.2.250
+  port: 443
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 (South Korea) 21 - kqidt
+  type: ss
+  server: 141.164.45.187
+  port: 2376
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 22 - kqidt
+  type: vless
+  server: 119.28.161.143
+  port: 443
+  uuid: 1ebb0858-218a-4dee-8746-36a67bc64462
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: pR7MPTAA4cZsW9AO-twMzuogiWGMKPiheTg70fcWWWs
+  servername: apple.com
+  client-fingerprint: chrome
+- name: 🇰🇷 韩国 (South Korea) 23 - kqidt
+  type: ss
+  server: 141.164.45.187
+  port: 9101
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 24 - kqidt
+  type: vless
+  server: www.gov.ua
+  port: 8880
+  uuid: e974d4c7-2376-4b65-aa40-0680961ff5e4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: icy-unit-58dc.157-59c.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 25 - kqidt
+  type: ss
+  server: 141.164.45.187
+  port: 6679
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 26 - kqidt
+  type: vless
+  server: 172.67.217.240
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
 proxy-groups:
 - name: PROXIES
   type: select
@@ -589,28 +333,6 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 24 - kqidt
   - 🇰🇷 韩国 (South Korea) 25 - kqidt
   - 🇰🇷 韩国 (South Korea) 26 - kqidt
-  - 🇰🇷 韩国 (South Korea) 27 - kqidt
-  - 🇰🇷 韩国 (South Korea) 28 - kqidt
-  - 🇰🇷 韩国 (South Korea) 29 - kqidt
-  - 🇰🇷 韩国 (South Korea) 30 - kqidt
-  - 🇰🇷 韩国 (South Korea) 31 - kqidt
-  - 🇰🇷 韩国 (South Korea) 32 - kqidt
-  - 🇰🇷 韩国 (South Korea) 33 - kqidt
-  - 🇰🇷 韩国 (South Korea) 34 - kqidt
-  - 🇰🇷 韩国 (South Korea) 35 - kqidt
-  - 🇰🇷 韩国 (South Korea) 36 - kqidt
-  - 🇰🇷 韩国 (South Korea) 37 - kqidt
-  - 🇰🇷 韩国 (South Korea) 38 - kqidt
-  - 🇰🇷 韩国 (South Korea) 39 - kqidt
-  - 🇰🇷 韩国 (South Korea) 40 - kqidt
-  - 🇰🇷 韩国 (South Korea) 41 - kqidt
-  - 🇰🇷 韩国 (South Korea) 42 - kqidt
-  - 🇰🇷 韩国 (South Korea) 43 - kqidt
-  - 🇰🇷 韩国 (South Korea) 44 - kqidt
-  - 🇰🇷 韩国 (South Korea) 45 - kqidt
-  - 🇰🇷 韩国 (South Korea) 46 - kqidt
-  - 🇰🇷 韩国 (South Korea) 47 - kqidt
-  - 🇰🇷 韩国 (South Korea) 48 - kqidt
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -642,27 +364,5 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 24 - kqidt
   - 🇰🇷 韩国 (South Korea) 25 - kqidt
   - 🇰🇷 韩国 (South Korea) 26 - kqidt
-  - 🇰🇷 韩国 (South Korea) 27 - kqidt
-  - 🇰🇷 韩国 (South Korea) 28 - kqidt
-  - 🇰🇷 韩国 (South Korea) 29 - kqidt
-  - 🇰🇷 韩国 (South Korea) 30 - kqidt
-  - 🇰🇷 韩国 (South Korea) 31 - kqidt
-  - 🇰🇷 韩国 (South Korea) 32 - kqidt
-  - 🇰🇷 韩国 (South Korea) 33 - kqidt
-  - 🇰🇷 韩国 (South Korea) 34 - kqidt
-  - 🇰🇷 韩国 (South Korea) 35 - kqidt
-  - 🇰🇷 韩国 (South Korea) 36 - kqidt
-  - 🇰🇷 韩国 (South Korea) 37 - kqidt
-  - 🇰🇷 韩国 (South Korea) 38 - kqidt
-  - 🇰🇷 韩国 (South Korea) 39 - kqidt
-  - 🇰🇷 韩国 (South Korea) 40 - kqidt
-  - 🇰🇷 韩国 (South Korea) 41 - kqidt
-  - 🇰🇷 韩国 (South Korea) 42 - kqidt
-  - 🇰🇷 韩国 (South Korea) 43 - kqidt
-  - 🇰🇷 韩国 (South Korea) 44 - kqidt
-  - 🇰🇷 韩国 (South Korea) 45 - kqidt
-  - 🇰🇷 韩国 (South Korea) 46 - kqidt
-  - 🇰🇷 韩国 (South Korea) 47 - kqidt
-  - 🇰🇷 韩国 (South Korea) 48 - kqidt
 rules:
 - MATCH,PROXIES

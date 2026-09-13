@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇧🇬 BG 01 - kqidt
   type: vless
-  server: 192.145.31.5
+  server: neth9.lunariai.ru
   port: 8443
   uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
   udp: true
@@ -14,55 +14,6 @@ proxies:
   skip-cert-verify: true
   servername: neth9.lunariai.ru
 - name: 🇧🇬 BG 02 - kqidt
-  type: vless
-  server: neth9.lunariai.ru
-  port: 8443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: neth9.lunariai.ru
-- name: 🇧🇬 BG 03 - kqidt
-  type: vless
-  server: 192.145.31.5
-  port: 8443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: neth9.lunariai.ru
-- name: 🇧🇬 BG 04 - kqidt
-  type: vless
-  server: 192.145.31.5
-  port: 443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 192.145.31.5
-- name: 🇧🇬 BG 05 - kqidt
-  type: vless
-  server: neth9.lunariai.ru
-  port: 8443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: neth9.lunariai.ru
-- name: 🇧🇬 BG 06 - kqidt
-  type: vless
-  server: neth9.lunariai.ru
-  port: 8443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: neth9.lunariai.ru
-- name: 🇧🇬 BG 07 - kqidt
   type: vless
   server: neth9.lunariai.ru
   port: 443
@@ -75,6 +26,55 @@ proxies:
     path: /
     headers:
       Host: neth9.lunariai.ru
+- name: 🇧🇬 BG 03 - kqidt
+  type: vless
+  server: neth9.lunariai.ru
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth9.lunariai.ru
+- name: 🇧🇬 BG 04 - kqidt
+  type: vless
+  server: neth9.lunariai.ru
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth9.lunariai.ru
+- name: 🇧🇬 BG 05 - kqidt
+  type: vless
+  server: 192.145.31.5
+  port: 443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 192.145.31.5
+- name: 🇧🇬 BG 06 - kqidt
+  type: vless
+  server: neth9.lunariai.ru
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth9.lunariai.ru
+- name: 🇧🇬 BG 07 - kqidt
+  type: vless
+  server: 192.145.31.5
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth9.lunariai.ru
 - name: 🇧🇬 BG 08 - kqidt
   type: vless
   server: neth9.lunariai.ru
@@ -86,7 +86,7 @@ proxies:
   servername: neth9.lunariai.ru
 - name: 🇧🇬 BG 09 - kqidt
   type: vless
-  server: 192.145.31.5
+  server: neth9.lunariai.ru
   port: 8443
   uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
   udp: true
@@ -95,7 +95,7 @@ proxies:
   servername: neth9.lunariai.ru
 - name: 🇧🇬 BG 10 - kqidt
   type: vless
-  server: neth9.lunariai.ru
+  server: 192.145.31.5
   port: 8443
   uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
   udp: true
@@ -104,7 +104,7 @@ proxies:
   servername: neth9.lunariai.ru
 - name: 🇧🇬 BG 11 - kqidt
   type: vless
-  server: neth9.lunariai.ru
+  server: 192.145.31.5
   port: 8443
   uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
   udp: true
@@ -131,7 +131,7 @@ proxies:
   servername: neth9.lunariai.ru
 - name: 🇧🇬 BG 14 - kqidt
   type: vless
-  server: 192.145.31.5
+  server: neth9.lunariai.ru
   port: 8443
   uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
   udp: true
@@ -141,6 +141,24 @@ proxies:
 - name: 🇧🇬 BG 15 - kqidt
   type: vless
   server: neth9.lunariai.ru
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth9.lunariai.ru
+- name: 🇧🇬 BG 16 - kqidt
+  type: vless
+  server: 192.145.31.5
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth9.lunariai.ru
+- name: 🇧🇬 BG 17 - kqidt
+  type: vless
+  server: 192.145.31.5
   port: 8443
   uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
   udp: true
@@ -167,6 +185,8 @@ proxy-groups:
   - 🇧🇬 BG 13 - kqidt
   - 🇧🇬 BG 14 - kqidt
   - 🇧🇬 BG 15 - kqidt
+  - 🇧🇬 BG 16 - kqidt
+  - 🇧🇬 BG 17 - kqidt
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -187,5 +207,7 @@ proxy-groups:
   - 🇧🇬 BG 13 - kqidt
   - 🇧🇬 BG 14 - kqidt
   - 🇧🇬 BG 15 - kqidt
+  - 🇧🇬 BG 16 - kqidt
+  - 🇧🇬 BG 17 - kqidt
 rules:
 - MATCH,PROXIES

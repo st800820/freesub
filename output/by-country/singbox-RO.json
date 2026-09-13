@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇴 RO 01 - kqidt"
+        "🇷🇴 RO 01 - kqidt",
+        "🇷🇴 RO 02 - kqidt",
+        "🇷🇴 RO 03 - kqidt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇴 RO 01 - kqidt"
+        "🇷🇴 RO 01 - kqidt",
+        "🇷🇴 RO 02 - kqidt",
+        "🇷🇴 RO 03 - kqidt"
       ],
       "url": "https://www.google.com/generate_204"
     },
