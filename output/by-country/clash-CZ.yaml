@@ -6,73 +6,46 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - xiaohe
   type: vless
-  server: 172.67.152.162
+  server: 103.119.18.30
   port: 443
-  uuid: 07f9bc85-613f-4a33-8da1-191973c43c0a
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: app-q0zc4t.user-4gfyh5.workers.dev
+  servername: mianfei-73q.pages.dev
   network: ws
   ws-opts:
-    path: /cmh
+    path: /proxyip=154.3.33.43
     headers:
-      Host: app-q0zc4t.user-4gfyh5.workers.dev
+      Host: mianfei-73q.pages.dev
 - name: 🇨🇿 CZ 02 - xiaohe
   type: vless
-  server: 104.21.12.116
-  port: 8880
-  uuid: ed189537-41de-4abe-9f8b-bb75d457722d
+  server: 188.114.97.1
+  port: 2053
+  uuid: 0b3e7958-e5c4-498f-ab21-b49686f95d2d
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: bold-term-4edd.mbigspot.workers.dev
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
+    path: /
     headers:
-      Host: lucky-cake-4f58.318-5ee.workers.dev
+      Host: bold-term-4edd.mbigspot.workers.dev
 - name: 🇨🇿 CZ 03 - xiaohe
   type: vless
-  server: 172.67.145.21
+  server: 103.119.18.30
   port: 443
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: INDEX.Arcane509.Workers.DEV
+  servername: mianfei-73q.pages.dev
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip=154.3.33.43
     headers:
-      Host: index.arcane509.workers.dev
-- name: 🇨🇿 CZ 04 - xiaohe
-  type: vless
-  server: 172.66.47.45
-  port: 2083
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wk1.f1w.de5.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: wk1.f1w.de5.net
-- name: 🇨🇿 CZ 05 - xiaohe
-  type: vless
-  server: 45.130.125.126
-  port: 443
-  uuid: b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
+      Host: mianfei-73q.pages.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -81,8 +54,6 @@ proxy-groups:
   - 🇨🇿 CZ 01 - xiaohe
   - 🇨🇿 CZ 02 - xiaohe
   - 🇨🇿 CZ 03 - xiaohe
-  - 🇨🇿 CZ 04 - xiaohe
-  - 🇨🇿 CZ 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -91,7 +62,5 @@ proxy-groups:
   - 🇨🇿 CZ 01 - xiaohe
   - 🇨🇿 CZ 02 - xiaohe
   - 🇨🇿 CZ 03 - xiaohe
-  - 🇨🇿 CZ 04 - xiaohe
-  - 🇨🇿 CZ 05 - xiaohe
 rules:
 - MATCH,PROXIES
