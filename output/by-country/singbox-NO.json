@@ -6,24 +6,34 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇴 NO 01 - xiaohe",
-        "🇳🇴 NO 02 - xiaohe",
-        "🇳🇴 NO 03 - xiaohe",
-        "🇳🇴 NO 04 - xiaohe",
-        "🇳🇴 NO 05 - xiaohe",
-        "🇳🇴 NO 06 - xiaohe"
+        "🇳🇴 NO 01 - kqidt",
+        "🇳🇴 NO 02 - kqidt",
+        "🇳🇴 NO 03 - kqidt",
+        "🇳🇴 NO 04 - kqidt",
+        "🇳🇴 NO 05 - kqidt",
+        "🇳🇴 NO 06 - kqidt",
+        "🇳🇴 NO 07 - kqidt",
+        "🇳🇴 NO 08 - kqidt",
+        "🇳🇴 NO 09 - kqidt",
+        "🇳🇴 NO 10 - kqidt",
+        "🇳🇴 NO 11 - kqidt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇴 NO 01 - xiaohe",
-        "🇳🇴 NO 02 - xiaohe",
-        "🇳🇴 NO 03 - xiaohe",
-        "🇳🇴 NO 04 - xiaohe",
-        "🇳🇴 NO 05 - xiaohe",
-        "🇳🇴 NO 06 - xiaohe"
+        "🇳🇴 NO 01 - kqidt",
+        "🇳🇴 NO 02 - kqidt",
+        "🇳🇴 NO 03 - kqidt",
+        "🇳🇴 NO 04 - kqidt",
+        "🇳🇴 NO 05 - kqidt",
+        "🇳🇴 NO 06 - kqidt",
+        "🇳🇴 NO 07 - kqidt",
+        "🇳🇴 NO 08 - kqidt",
+        "🇳🇴 NO 09 - kqidt",
+        "🇳🇴 NO 10 - kqidt",
+        "🇳🇴 NO 11 - kqidt"
       ],
       "url": "https://www.google.com/generate_204"
     },

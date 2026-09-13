@@ -6,16 +6,34 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇮 FI 01 - xiaohe",
-        "🇫🇮 FI 02 - xiaohe"
+        "🇫🇮 FI 01 - kqidt",
+        "🇫🇮 FI 02 - kqidt",
+        "🇫🇮 FI 03 - kqidt",
+        "🇫🇮 FI 04 - kqidt",
+        "🇫🇮 FI 05 - kqidt",
+        "🇫🇮 FI 06 - kqidt",
+        "🇫🇮 FI 07 - kqidt",
+        "🇫🇮 FI 08 - kqidt",
+        "🇫🇮 FI 09 - kqidt",
+        "🇫🇮 FI 10 - kqidt",
+        "🇫🇮 FI 11 - kqidt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 FI 01 - xiaohe",
-        "🇫🇮 FI 02 - xiaohe"
+        "🇫🇮 FI 01 - kqidt",
+        "🇫🇮 FI 02 - kqidt",
+        "🇫🇮 FI 03 - kqidt",
+        "🇫🇮 FI 04 - kqidt",
+        "🇫🇮 FI 05 - kqidt",
+        "🇫🇮 FI 06 - kqidt",
+        "🇫🇮 FI 07 - kqidt",
+        "🇫🇮 FI 08 - kqidt",
+        "🇫🇮 FI 09 - kqidt",
+        "🇫🇮 FI 10 - kqidt",
+        "🇫🇮 FI 11 - kqidt"
       ],
       "url": "https://www.google.com/generate_204"
     },

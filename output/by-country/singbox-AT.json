@@ -6,16 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇹 AT 01 - xiaohe",
-        "🇦🇹 AT 02 - xiaohe"
+        "🇦🇹 AT 01 - kqidt",
+        "🇦🇹 AT 02 - kqidt",
+        "🇦🇹 AT 03 - kqidt",
+        "🇦🇹 AT 04 - kqidt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇹 AT 01 - xiaohe",
-        "🇦🇹 AT 02 - xiaohe"
+        "🇦🇹 AT 01 - kqidt",
+        "🇦🇹 AT 02 - kqidt",
+        "🇦🇹 AT 03 - kqidt",
+        "🇦🇹 AT 04 - kqidt"
       ],
       "url": "https://www.google.com/generate_204"
     },

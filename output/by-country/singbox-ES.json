@@ -6,18 +6,26 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇸 西班牙 (Spain) 01 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 02 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 03 - xiaohe"
+        "🇪🇸 西班牙 (Spain) 01 - kqidt",
+        "🇪🇸 西班牙 (Spain) 02 - kqidt",
+        "🇪🇸 西班牙 (Spain) 03 - kqidt",
+        "🇪🇸 西班牙 (Spain) 04 - kqidt",
+        "🇪🇸 西班牙 (Spain) 05 - kqidt",
+        "🇪🇸 西班牙 (Spain) 06 - kqidt",
+        "🇪🇸 西班牙 (Spain) 07 - kqidt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇸 西班牙 (Spain) 01 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 02 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 03 - xiaohe"
+        "🇪🇸 西班牙 (Spain) 01 - kqidt",
+        "🇪🇸 西班牙 (Spain) 02 - kqidt",
+        "🇪🇸 西班牙 (Spain) 03 - kqidt",
+        "🇪🇸 西班牙 (Spain) 04 - kqidt",
+        "🇪🇸 西班牙 (Spain) 05 - kqidt",
+        "🇪🇸 西班牙 (Spain) 06 - kqidt",
+        "🇪🇸 西班牙 (Spain) 07 - kqidt"
       ],
       "url": "https://www.google.com/generate_204"
     },

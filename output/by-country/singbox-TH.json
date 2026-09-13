@@ -6,14 +6,26 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇭 TH 01 - xiaohe"
+        "🇹🇭 TH 01 - kqidt",
+        "🇹🇭 TH 02 - kqidt",
+        "🇹🇭 TH 03 - kqidt",
+        "🇹🇭 TH 04 - kqidt",
+        "🇹🇭 TH 05 - kqidt",
+        "🇹🇭 TH 06 - kqidt",
+        "🇹🇭 TH 07 - kqidt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 TH 01 - xiaohe"
+        "🇹🇭 TH 01 - kqidt",
+        "🇹🇭 TH 02 - kqidt",
+        "🇹🇭 TH 03 - kqidt",
+        "🇹🇭 TH 04 - kqidt",
+        "🇹🇭 TH 05 - kqidt",
+        "🇹🇭 TH 06 - kqidt",
+        "🇹🇭 TH 07 - kqidt"
       ],
       "url": "https://www.google.com/generate_204"
     },

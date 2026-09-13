@@ -6,14 +6,28 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 - kqidt",
+        "🇹🇷 土耳其 (Turkey) 02 - kqidt",
+        "🇹🇷 土耳其 (Turkey) 03 - kqidt",
+        "🇹🇷 土耳其 (Turkey) 04 - kqidt",
+        "🇹🇷 土耳其 (Turkey) 05 - kqidt",
+        "🇹🇷 土耳其 (Turkey) 06 - kqidt",
+        "🇹🇷 土耳其 (Turkey) 07 - kqidt",
+        "🇹🇷 土耳其 (Turkey) 08 - kqidt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 - kqidt",
+        "🇹🇷 土耳其 (Turkey) 02 - kqidt",
+        "🇹🇷 土耳其 (Turkey) 03 - kqidt",
+        "🇹🇷 土耳其 (Turkey) 04 - kqidt",
+        "🇹🇷 土耳其 (Turkey) 05 - kqidt",
+        "🇹🇷 土耳其 (Turkey) 06 - kqidt",
+        "🇹🇷 土耳其 (Turkey) 07 - kqidt",
+        "🇹🇷 土耳其 (Turkey) 08 - kqidt"
       ],
       "url": "https://www.google.com/generate_204"
     },

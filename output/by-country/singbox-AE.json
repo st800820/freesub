@@ -6,22 +6,42 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 05 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 01 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 02 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 03 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 04 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 05 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 06 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 07 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 08 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 09 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 10 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 11 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 12 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 13 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 14 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 15 - kqidt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 05 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 01 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 02 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 03 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 04 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 05 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 06 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 07 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 08 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 09 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 10 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 11 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 12 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 13 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 14 - kqidt",
+        "🇦🇪 阿联酋 (UAE) 15 - kqidt"
       ],
       "url": "https://www.google.com/generate_204"
     },

@@ -4,7 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇬 BG 01 - xiaohe
+- name: 🇧🇬 BG 01 - kqidt
   type: vless
   server: 192.145.31.5
   port: 8443
@@ -13,7 +13,16 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: neth9.lunariai.ru
-- name: 🇧🇬 BG 02 - xiaohe
+- name: 🇧🇬 BG 02 - kqidt
+  type: vless
+  server: neth9.lunariai.ru
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth9.lunariai.ru
+- name: 🇧🇬 BG 03 - kqidt
   type: vless
   server: 192.145.31.5
   port: 8443
@@ -22,9 +31,116 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: neth9.lunariai.ru
-- name: 🇧🇬 BG 03 - xiaohe
+- name: 🇧🇬 BG 04 - kqidt
   type: vless
   server: 192.145.31.5
+  port: 443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 192.145.31.5
+- name: 🇧🇬 BG 05 - kqidt
+  type: vless
+  server: neth9.lunariai.ru
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth9.lunariai.ru
+- name: 🇧🇬 BG 06 - kqidt
+  type: vless
+  server: neth9.lunariai.ru
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth9.lunariai.ru
+- name: 🇧🇬 BG 07 - kqidt
+  type: vless
+  server: neth9.lunariai.ru
+  port: 443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: neth9.lunariai.ru
+- name: 🇧🇬 BG 08 - kqidt
+  type: vless
+  server: neth9.lunariai.ru
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth9.lunariai.ru
+- name: 🇧🇬 BG 09 - kqidt
+  type: vless
+  server: 192.145.31.5
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth9.lunariai.ru
+- name: 🇧🇬 BG 10 - kqidt
+  type: vless
+  server: neth9.lunariai.ru
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth9.lunariai.ru
+- name: 🇧🇬 BG 11 - kqidt
+  type: vless
+  server: neth9.lunariai.ru
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth9.lunariai.ru
+- name: 🇧🇬 BG 12 - kqidt
+  type: vless
+  server: 192.145.31.5
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth9.lunariai.ru
+- name: 🇧🇬 BG 13 - kqidt
+  type: vless
+  server: 192.145.31.5
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth9.lunariai.ru
+- name: 🇧🇬 BG 14 - kqidt
+  type: vless
+  server: 192.145.31.5
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth9.lunariai.ru
+- name: 🇧🇬 BG 15 - kqidt
+  type: vless
+  server: neth9.lunariai.ru
   port: 8443
   uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
   udp: true
@@ -36,16 +152,40 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇧🇬 BG 01 - xiaohe
-  - 🇧🇬 BG 02 - xiaohe
-  - 🇧🇬 BG 03 - xiaohe
+  - 🇧🇬 BG 01 - kqidt
+  - 🇧🇬 BG 02 - kqidt
+  - 🇧🇬 BG 03 - kqidt
+  - 🇧🇬 BG 04 - kqidt
+  - 🇧🇬 BG 05 - kqidt
+  - 🇧🇬 BG 06 - kqidt
+  - 🇧🇬 BG 07 - kqidt
+  - 🇧🇬 BG 08 - kqidt
+  - 🇧🇬 BG 09 - kqidt
+  - 🇧🇬 BG 10 - kqidt
+  - 🇧🇬 BG 11 - kqidt
+  - 🇧🇬 BG 12 - kqidt
+  - 🇧🇬 BG 13 - kqidt
+  - 🇧🇬 BG 14 - kqidt
+  - 🇧🇬 BG 15 - kqidt
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇬 BG 01 - xiaohe
-  - 🇧🇬 BG 02 - xiaohe
-  - 🇧🇬 BG 03 - xiaohe
+  - 🇧🇬 BG 01 - kqidt
+  - 🇧🇬 BG 02 - kqidt
+  - 🇧🇬 BG 03 - kqidt
+  - 🇧🇬 BG 04 - kqidt
+  - 🇧🇬 BG 05 - kqidt
+  - 🇧🇬 BG 06 - kqidt
+  - 🇧🇬 BG 07 - kqidt
+  - 🇧🇬 BG 08 - kqidt
+  - 🇧🇬 BG 09 - kqidt
+  - 🇧🇬 BG 10 - kqidt
+  - 🇧🇬 BG 11 - kqidt
+  - 🇧🇬 BG 12 - kqidt
+  - 🇧🇬 BG 13 - kqidt
+  - 🇧🇬 BG 14 - kqidt
+  - 🇧🇬 BG 15 - kqidt
 rules:
 - MATCH,PROXIES

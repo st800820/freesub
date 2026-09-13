@@ -6,16 +6,32 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇾 MY 01 - xiaohe",
-        "🇲🇾 MY 02 - xiaohe"
+        "🇲🇾 MY 01 - kqidt",
+        "🇲🇾 MY 02 - kqidt",
+        "🇲🇾 MY 03 - kqidt",
+        "🇲🇾 MY 04 - kqidt",
+        "🇲🇾 MY 05 - kqidt",
+        "🇲🇾 MY 06 - kqidt",
+        "🇲🇾 MY 07 - kqidt",
+        "🇲🇾 MY 08 - kqidt",
+        "🇲🇾 MY 09 - kqidt",
+        "🇲🇾 MY 10 - kqidt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇾 MY 01 - xiaohe",
-        "🇲🇾 MY 02 - xiaohe"
+        "🇲🇾 MY 01 - kqidt",
+        "🇲🇾 MY 02 - kqidt",
+        "🇲🇾 MY 03 - kqidt",
+        "🇲🇾 MY 04 - kqidt",
+        "🇲🇾 MY 05 - kqidt",
+        "🇲🇾 MY 06 - kqidt",
+        "🇲🇾 MY 07 - kqidt",
+        "🇲🇾 MY 08 - kqidt",
+        "🇲🇾 MY 09 - kqidt",
+        "🇲🇾 MY 10 - kqidt"
       ],
       "url": "https://www.google.com/generate_204"
     },

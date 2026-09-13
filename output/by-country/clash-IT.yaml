@@ -4,14 +4,45 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇹 意大利 (Italy) 01 - xiaohe
+- name: 🇮🇹 意大利 (Italy) 01 - kqidt
+  type: vless
+  server: 204.216.216.23
+  port: 10086
+  uuid: 9f0285ee-20ca-4953-bcdb-86a920652923
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇮🇹 意大利 (Italy) 02 - kqidt
   type: ss
   server: 57.131.48.45
   port: 8388
   cipher: aes-256-gcm
   password: itzvpn@321
   udp: true
-- name: 🇮🇹 意大利 (Italy) 02 - xiaohe
+- name: 🇮🇹 意大利 (Italy) 03 - kqidt
+  type: ss
+  server: 185.164.175.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇮🇹 意大利 (Italy) 04 - kqidt
+  type: vless
+  server: 204.216.216.23
+  port: 10086
+  uuid: 9f0285ee-20ca-4953-bcdb-86a920652923
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇮🇹 意大利 (Italy) 05 - kqidt
+  type: vless
+  server: 204.216.216.23
+  port: 10086
+  uuid: 9f0285ee-20ca-4953-bcdb-86a920652923
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇮🇹 意大利 (Italy) 06 - kqidt
   type: vless
   server: 57.131.38.163
   port: 2053
@@ -22,23 +53,8 @@ proxies:
   reality-opts:
     public-key: Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc
   servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇮🇹 意大利 (Italy) 03 - xiaohe
-  type: vless
-  server: 204.216.216.23
-  port: 10086
-  uuid: 9f0285ee-20ca-4953-bcdb-86a920652923
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇮🇹 意大利 (Italy) 04 - xiaohe
-  type: ss
-  server: 57.131.48.45
-  port: 8388
-  cipher: aes-256-gcm
-  password: itzvpn@321
-  udp: true
-- name: 🇮🇹 意大利 (Italy) 05 - xiaohe
+  client-fingerprint: firefox
+- name: 🇮🇹 意大利 (Italy) 07 - kqidt
   type: vless
   server: 158.180.231.216
   port: 443
@@ -52,34 +68,120 @@ proxies:
     path: /vws/
     headers:
       Host: bab-6.site
-- name: 🇮🇹 意大利 (Italy) 06 - xiaohe
+- name: 🇮🇹 意大利 (Italy) 08 - kqidt
   type: ss
-  server: 185.164.175.81
-  port: 19999
+  server: 57.131.48.45
+  port: 8388
   cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  password: itzvpn@321
   udp: true
+- name: 🇮🇹 意大利 (Italy) 09 - kqidt
+  type: vless
+  server: 204.216.216.23
+  port: 10086
+  uuid: 9f0285ee-20ca-4953-bcdb-86a920652923
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇮🇹 意大利 (Italy) 10 - kqidt
+  type: vless
+  server: 57.131.38.163
+  port: 2053
+  uuid: d4b08cd6-0903-411a-9dac-45dbdf5c9712
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇮🇹 意大利 (Italy) 11 - kqidt
+  type: vless
+  server: 204.216.216.23
+  port: 10086
+  uuid: 9f0285ee-20ca-4953-bcdb-86a920652923
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇮🇹 意大利 (Italy) 12 - kqidt
+  type: vless
+  server: 204.216.216.23
+  port: 10086
+  uuid: 9f0285ee-20ca-4953-bcdb-86a920652923
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇮🇹 意大利 (Italy) 13 - kqidt
+  type: vless
+  server: 57.131.38.163
+  port: 2053
+  uuid: d4b08cd6-0903-411a-9dac-45dbdf5c9712
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇮🇹 意大利 (Italy) 14 - kqidt
+  type: vless
+  server: 204.216.216.23
+  port: 10086
+  uuid: 9f0285ee-20ca-4953-bcdb-86a920652923
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇮🇹 意大利 (Italy) 15 - kqidt
+  type: vless
+  server: 57.131.38.163
+  port: 2053
+  uuid: d4b08cd6-0903-411a-9dac-45dbdf5c9712
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc
+  servername: www.apple.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇹 意大利 (Italy) 01 - xiaohe
-  - 🇮🇹 意大利 (Italy) 02 - xiaohe
-  - 🇮🇹 意大利 (Italy) 03 - xiaohe
-  - 🇮🇹 意大利 (Italy) 04 - xiaohe
-  - 🇮🇹 意大利 (Italy) 05 - xiaohe
-  - 🇮🇹 意大利 (Italy) 06 - xiaohe
+  - 🇮🇹 意大利 (Italy) 01 - kqidt
+  - 🇮🇹 意大利 (Italy) 02 - kqidt
+  - 🇮🇹 意大利 (Italy) 03 - kqidt
+  - 🇮🇹 意大利 (Italy) 04 - kqidt
+  - 🇮🇹 意大利 (Italy) 05 - kqidt
+  - 🇮🇹 意大利 (Italy) 06 - kqidt
+  - 🇮🇹 意大利 (Italy) 07 - kqidt
+  - 🇮🇹 意大利 (Italy) 08 - kqidt
+  - 🇮🇹 意大利 (Italy) 09 - kqidt
+  - 🇮🇹 意大利 (Italy) 10 - kqidt
+  - 🇮🇹 意大利 (Italy) 11 - kqidt
+  - 🇮🇹 意大利 (Italy) 12 - kqidt
+  - 🇮🇹 意大利 (Italy) 13 - kqidt
+  - 🇮🇹 意大利 (Italy) 14 - kqidt
+  - 🇮🇹 意大利 (Italy) 15 - kqidt
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇹 意大利 (Italy) 01 - xiaohe
-  - 🇮🇹 意大利 (Italy) 02 - xiaohe
-  - 🇮🇹 意大利 (Italy) 03 - xiaohe
-  - 🇮🇹 意大利 (Italy) 04 - xiaohe
-  - 🇮🇹 意大利 (Italy) 05 - xiaohe
-  - 🇮🇹 意大利 (Italy) 06 - xiaohe
+  - 🇮🇹 意大利 (Italy) 01 - kqidt
+  - 🇮🇹 意大利 (Italy) 02 - kqidt
+  - 🇮🇹 意大利 (Italy) 03 - kqidt
+  - 🇮🇹 意大利 (Italy) 04 - kqidt
+  - 🇮🇹 意大利 (Italy) 05 - kqidt
+  - 🇮🇹 意大利 (Italy) 06 - kqidt
+  - 🇮🇹 意大利 (Italy) 07 - kqidt
+  - 🇮🇹 意大利 (Italy) 08 - kqidt
+  - 🇮🇹 意大利 (Italy) 09 - kqidt
+  - 🇮🇹 意大利 (Italy) 10 - kqidt
+  - 🇮🇹 意大利 (Italy) 11 - kqidt
+  - 🇮🇹 意大利 (Italy) 12 - kqidt
+  - 🇮🇹 意大利 (Italy) 13 - kqidt
+  - 🇮🇹 意大利 (Italy) 14 - kqidt
+  - 🇮🇹 意大利 (Italy) 15 - kqidt
 rules:
 - MATCH,PROXIES
